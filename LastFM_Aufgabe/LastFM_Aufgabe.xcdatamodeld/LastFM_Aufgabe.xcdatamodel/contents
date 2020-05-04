@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="17G6030" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AlbumSaved" representedClassName="AlbumSaved" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="listeners" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playcount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="published" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="artist" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ArtistSaved" inverseName="albums" inverseEntity="ArtistSaved" syncable="YES"/>
+        <relationship name="tracks" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="TracksSaved" inverseName="albumTracks" inverseEntity="TracksSaved" syncable="YES"/>
+    </entity>
+    <entity name="ArtistSaved" representedClassName="ArtistSaved" syncable="YES" codeGenerationType="class">
+        <attribute name="albumName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="albums" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="AlbumSaved" inverseName="artist" inverseEntity="AlbumSaved" syncable="YES"/>
+    </entity>
+    <entity name="TracksSaved" representedClassName="TracksSaved" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="albumTracks" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AlbumSaved" inverseName="tracks" inverseEntity="AlbumSaved" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AlbumSaved" positionX="-18" positionY="36" width="128" height="135"/>
+        <element name="ArtistSaved" positionX="-45" positionY="0" width="128" height="90"/>
+        <element name="TracksSaved" positionX="9" positionY="81" width="128" height="75"/>
+    </elements>
+</model>

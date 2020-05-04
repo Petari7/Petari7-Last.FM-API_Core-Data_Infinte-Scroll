@@ -1,0 +1,6 @@
+framework module Pods_LastFM_Aufgabe {
+  umbrella header "Pods-LastFM_Aufgabe-umbrella.h"
+
+  export *
+  module * { export * }
+}
