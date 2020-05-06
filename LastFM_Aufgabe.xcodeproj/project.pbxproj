@@ -36,7 +36,7 @@
 		464BF27E22673E9C00D59EA1 /* ArtistSearch_JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BF27D22673E9C00D59EA1 /* ArtistSearch_JSON.swift */; };
 		464BF28022674AA200D59EA1 /* ArtistSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BF27F22674AA200D59EA1 /* ArtistSearchCell.swift */; };
 		464BF2822267615E00D59EA1 /* ArtistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BF2812267615E00D59EA1 /* ArtistController.swift */; };
-		464BF2862267814300D59EA1 /* Artist_GetInfo_JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464BF2852267814300D59EA1 /* Artist_GetInfo_JSON.swift */; };
+		467EB10F246363EC00306E5B /* Artist_GetInfo_JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467EB10E246363EC00306E5B /* Artist_GetInfo_JSON.swift */; };
 		46AB5D64226DD8AC00602B0E /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AB5D63226DD8AC00602B0E /* ViewModel.swift */; };
 		46CAD31A226CEEFE00709F31 /* TopAlbumsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAD319226CEEFE00709F31 /* TopAlbumsController.swift */; };
 		46CAD31C226D021400709F31 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CAD31B226D021400709F31 /* Protocol.swift */; };
@@ -85,9 +85,9 @@
 		464BF27D22673E9C00D59EA1 /* ArtistSearch_JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearch_JSON.swift; sourceTree = "<group>"; };
 		464BF27F22674AA200D59EA1 /* ArtistSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchCell.swift; sourceTree = "<group>"; };
 		464BF2812267615E00D59EA1 /* ArtistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistController.swift; sourceTree = "<group>"; };
-		464BF2852267814300D59EA1 /* Artist_GetInfo_JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Artist_GetInfo_JSON.swift; path = "../../../../../Creative Cloud Files/Artist_GetInfo_JSON.swift"; sourceTree = "<group>"; };
 		466BB7D222836B8D00D85463 /* LastFM_AufgabeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastFM_AufgabeTests.swift; sourceTree = "<group>"; };
 		466BB7D422836B8D00D85463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		467EB10E246363EC00306E5B /* Artist_GetInfo_JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artist_GetInfo_JSON.swift; sourceTree = "<group>"; };
 		46AB5D63226DD8AC00602B0E /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		46CAD319226CEEFE00709F31 /* TopAlbumsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopAlbumsController.swift; sourceTree = "<group>"; };
 		46CAD31B226D021400709F31 /* Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 				464BF26E226546E700D59EA1 /* AlbumGetInfo_JSON.swift */,
 				464BF27D22673E9C00D59EA1 /* ArtistSearch_JSON.swift */,
 				464BF27722672AA600D59EA1 /* CollapsedCellModel.swift */,
-				464BF2852267814300D59EA1 /* Artist_GetInfo_JSON.swift */,
+				467EB10E246363EC00306E5B /* Artist_GetInfo_JSON.swift */,
 				46DFEBE2226805B80014BEA6 /* GetTopAlbums_JSON.swift */,
 				46AB5D63226DD8AC00602B0E /* ViewModel.swift */,
 			);
@@ -398,9 +398,9 @@
 				460971DF226B84680022CC03 /* SavedAlbumController.swift in Sources */,
 				464BF2622264E61700D59EA1 /* ApiService.swift in Sources */,
 				464BF27E22673E9C00D59EA1 /* ArtistSearch_JSON.swift in Sources */,
+				467EB10F246363EC00306E5B /* Artist_GetInfo_JSON.swift in Sources */,
 				46CAD328226D20D400709F31 /* SavedAlbumController+.swift in Sources */,
 				464BF256226489DE00D59EA1 /* SearchController.swift in Sources */,
-				464BF2862267814300D59EA1 /* Artist_GetInfo_JSON.swift in Sources */,
 				46DFEBE82269ECBB0014BEA6 /* CoreDataManger.swift in Sources */,
 				46AB5D64226DD8AC00602B0E /* ViewModel.swift in Sources */,
 				464BF2602264A86800D59EA1 /* CustomNav.swift in Sources */,
